@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Rotenda Media Real Estate – Airbnb management, property marketing, and sales." />
+  <meta name="keywords" content="Rotenda Media, real estate, property marketing, Airbnb, Johannesburg" />
+  <meta name="author" content="Rotenda Aramosdori" />
+  <title>Rotenda Media | Real Estate</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="header">
+    <div class="container nav-container">
+      <h1 class="logo">Rotenda<span>Media</span></h1>
+      <nav class="navbar" id="navbar">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#services" class="active">Real Estate</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="menu-toggle" id="menu-toggle">&#9776;</button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero" style="background:url('images/real-estate-hero.jpg') center/cover no-repeat;">
+    <div class="hero-content">
+      <h2>Real Estate Services</h2>
+      <p>Property marketing, Airbnb management, tenant relocation, and sales – making your property profitable.</p>
+      <a href="#services" class="btn primary">Explore Services</a>
+    </div>
+  </section>
+
+  <!-- SERVICES -->
+  <section id="services" class="services section">
+    <div class="container">
+      <h2>Our Real Estate Services</h2>
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="images/airbnb.jpg" alt="Airbnb Management">
+          <h3>🏠 Airbnb Host Management</h3>
+          <p>End-to-end hosting solutions: listing setup, guest communication, cleaning, and maintenance.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/property-airbnb.jpg" alt="Property Marketing">
+          <h3>📸 Property Marketing & Photography</h3>
+          <p>Professional photography, videography, and social media campaigns to attract bookings and buyers.</p>
+        </div>
+        <div class="service-card">
+          <img src="images/property-moving.jpg" alt="Tenant Relocation">
+          <h3>🚚 Tenant & Landlord Moving Services</h3>
+          <p>Structured moving solutions for tenants, landlords, and hosts.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="contact section">
+    <div class="container">
+      <h2>Partner with Rotenda Media</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Email Address" required />
+        <textarea placeholder="Tell us about your property" rows="4" required></textarea>
+        <button type="submit" class="btn primary">Send Inquiry</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Rotenda Media. All Rights Reserved.</p>
+      <div class="socials">
+        <a href="#">Instagram</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">YouTube</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
+
